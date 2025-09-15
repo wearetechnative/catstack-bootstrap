@@ -1,4 +1,4 @@
-# CatStack AWS Bootstrap
+# Bootstrap AWS CatStack script
 
 Boilerplate with bootstrap scripts to create a AWS [CatStack](https://github.com/wearetechnative/catstack).
 
