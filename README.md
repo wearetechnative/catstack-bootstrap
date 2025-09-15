@@ -1,4 +1,4 @@
-# AWS StdBase Bootstrap
+# CatStack AWS Bootstrap
 
 Boilerplate with bootstrap scripts to create a Terraform Standard Base.
 
