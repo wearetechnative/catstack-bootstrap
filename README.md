@@ -1,6 +1,6 @@
 # CatStack AWS Bootstrap
 
-Boilerplate with bootstrap scripts to create a Terraform Standard Base.
+Boilerplate with bootstrap scripts to create a AWS [CatStack](https://github.com/wearetechnative/catstack).
 
 Use this repo and the RUNME.sh script to bootstrap new IaC projects for AWS,
 and bootstrap new environments.
