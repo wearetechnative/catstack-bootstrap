@@ -339,7 +339,8 @@ bootstrap_infra_env(){
 
   get_project_vals
 
-  ENVIRONMENT_NAME=`gum input ${PROMPSTYLE} --prompt "Enter environment name: " `
+  ENVIRONMENT_NAME_BASE=`gum input ${PROMPSTYLE} --prompt "Enter environment name: " `
+  ENVIRONMENT_NAME=`echo ${ENVIRONMENT_NAME_BASE} | tr '[:upper:]' '[:lower:]'`
   AWS_ACCOUNT_ID=`gum input ${PROMPSTYLE} --prompt "Enter destination AWS Account Id: " --placeholder="000000000000" --char-limit=12`
   ROLE_ARN="arn:aws:iam::${AWS_ACCOUNT_ID}:role/${ROLE_NAME}"
 
